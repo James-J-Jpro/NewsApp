@@ -4,7 +4,7 @@ import '../css/styles.css'
 class Header extends Component{
 
     state = {
-        keywords : 'Hello'
+        keywords : ''
     }
 
     handleInputChange = (event) => {
@@ -14,7 +14,7 @@ class Header extends Component{
     }
 
     render(){
-        console.log(this.state.keywords)
+
         return (
             <header>
                 <div className='logo'>Logo</div>
