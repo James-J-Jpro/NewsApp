@@ -1,9 +1,10 @@
 import React from 'react';
+import '../css/styles.css';
 
 const NewsListItem = (props) => {
 
     return(
-         <div>
+         <div className="news_item">
             <h3>{props.item.title}</h3>
             <div>
                 {props.item.feed}
